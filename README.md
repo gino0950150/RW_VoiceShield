@@ -1,8 +1,6 @@
-# RW-VoiceShield: Raw Waveform-based Adversarial Attack on One-shot Voice
-Conversion
+# RW-VoiceShield: Raw Waveform-based Adversarial Attack on One-shot Voice Conversion
 
-This project is about [RW-VoiceShield: Raw Waveform-based Adversarial Attack on One-shot Voice
-Conversion].
+This project is about [RW-VoiceShield: Raw Waveform-based Adversarial Attack on One-shot Voice Conversion].
 
 ## Abstract
 
