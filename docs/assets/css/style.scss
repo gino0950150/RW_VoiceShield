@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+main.main-content {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+audio {
+    width: 300px;
+    height: 50px;
+}
