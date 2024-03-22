@@ -5,5 +5,28 @@ We recommend using headphones for this section.
 
 |          |  Protected Input                                                           |  Original Output |  Adversarial Input  | Adversarial Output|
 |----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
+|0 | ![](samples/whitebox/14_0/ori_input.jpg)| ![](samples/whitebox/14_0/before.jpg)|![](samples/whitebox/14_0/adv_input.jpg)|![](samples/whitebox/14_0/after.jpg)|
+|    | <audio src="samples/whitebox/14_0/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/whitebox/14_0/before.wav" controls="" preload=""></audio> |<audio src="samples/whitebox/14_0/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/whitebox/14_0/after.wav" controls="" preload=""></audio>|
+|1 | ![](samples/whitebox/87_1/ori_input.jpg)| ![](samples/whitebox/87_1/before.jpg)|![](samples/whitebox/87_1/adv_input.jpg)|![](samples/whitebox/87_1/after.jpg)|
+|    | <audio src="samples/whitebox/87_1/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/whitebox/87_1/before.wav" controls="" preload=""></audio> |<audio src="samples/whitebox/87_1/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/whitebox/87_1/after.wav" controls="" preload=""></audio>|
+|2 | ![](samples/whitebox/674_13/ori_input.jpg)| ![](samples/whitebox/674_13/before.jpg)|![](samples/whitebox/674_13/adv_input.jpg)|![](samples/whitebox/674_13/after.jpg)|
+|    | <audio src="samples/whitebox/674_13/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/whitebox/674_13/before.wav" controls="" preload=""></audio> |<audio src="samples/whitebox/674_13/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/whitebox/674_13/after.wav" controls="" preload=""></audio>|
+|3 | ![](samples/whitebox/931_18/ori_input.jpg)| ![](samples/whitebox/931_18/before.jpg)|![](samples/whitebox/931_18/adv_input.jpg)|![](samples/whitebox/931_18/after.jpg)|
+|    | <audio src="samples/whitebox/931_18/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/whitebox/931_18/before.wav" controls="" preload=""></audio> |<audio src="samples/whitebox/931_18/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/whitebox/931_18/after.wav" controls="" preload=""></audio>|
+
+## RW-VoiceShield with Cosine Similarity Loss in Black Box Scenario (P-CS-b): 
+
+We recommend using headphones for this section.
+
+|          |  Protected Input                                                           |  Original Output |  Adversarial Input  | Adversarial Output|
+|----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
 |0 | ![](samples/blackbox/1_0/ori_input.jpg)| ![](samples/blackbox/1_0/before.jpg)|![](samples/blackbox/1_0/adv_input.jpg)|![](samples/blackbox/1_0/after.jpg)|
 |    | <audio src="samples/blackbox/1_0/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/blackbox/1_0/before.wav" controls="" preload=""></audio> |<audio src="samples/blackbox/1_0/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/blackbox/1_0/after.wav" controls="" preload=""></audio>|
+|1 | ![](samples/blackbox/54_1/ori_input.jpg)| ![](samples/blackbox/54_1/before.jpg)|![](samples/blackbox/54_1/adv_input.jpg)|![](samples/blackbox/54_1/after.jpg)|
+|    | <audio src="samples/blackbox/54_1/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/blackbox/54_1/before.wav" controls="" preload=""></audio> |<audio src="samples/blackbox/54_1/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/blackbox/54_1/after.wav" controls="" preload=""></audio>|
+|2 | ![](samples/blackbox/653_13/ori_input.jpg)| ![](samples/blackbox/653_13/before.jpg)|![](samples/blackbox/653_13/adv_input.jpg)|![](samples/blackbox/653_13/after.jpg)|
+|    | <audio src="samples/blackbox/653_13/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/blackbox/653_13/before.wav" controls="" preload=""></audio> |<audio src="samples/blackbox/653_13/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/blackbox/653_13/after.wav" controls="" preload=""></audio>|
+|3 | ![](samples/blackbox/1007_20/ori_input.jpg)| ![](samples/blackbox/1007_20/before.jpg)|![](samples/blackbox/1007_20/adv_input.jpg)|![](samples/blackbox/1007_20/after.jpg)|
+|    | <audio src="samples/blackbox/1007_20/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/blackbox/1007_20/before.wav" controls="" preload=""></audio> |<audio src="samples/blackbox/1007_20/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/blackbox/1007_20/after.wav" controls="" preload=""></audio>|
+
+
