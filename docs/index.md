@@ -3,5 +3,5 @@ In recent years, there have been significant advancements in one-shot voice conv
 
 We recommend using headphones for this section.
 
-|          | Target                                                                    |Noisy                                                                      |  MANNER  | CMGAN|
+|          |  Protected Input                                                           |  Original Output |  Adversarial Input  | Adversarial Output|
 |----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
