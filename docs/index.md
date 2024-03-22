@@ -5,37 +5,3 @@ We recommend using headphones for this section.
 
 |          | Target                                                                    |Noisy                                                                      |  MANNER  | CMGAN|
 |----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
-| 0| ![](samples/Normal/N0_clean.png)                                         | ![](samples/Normal/N0_noisy.png)                                         | ![](samples/Normal/N0_MANNER.png)                                         |![](samples/Normal/N0_CMGAN.png)                                         |
-|    | <audio src="samples/Normal/N0_clean.wav" controls="" preload=""></audio> | <audio src="samples/Normal/N0_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Normal/N0_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Normal/N0_CMGAN.wav" controls="" preload=""></audio>|
-| 1 | ![](samples/Normal/N1_clean.png)                                         | ![](samples/Normal/N1_noisy.png)                                         | ![](samples/Normal/N1_MANNER.png)                                         |![](samples/Normal/N1_CMGAN.png)                                         |
-|    | <audio src="samples/Normal/N1_clean.wav" controls="" preload=""></audio> | <audio src="samples/Normal/N1_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Normal/N1_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Normal/N1_CMGAN.wav" controls="" preload=""></audio>|
-| 2 | ![](samples/Normal/N2_clean.png)                                         | ![](samples/Normal/N2_noisy.png)                                         | ![](samples/Normal/N2_MANNER.png)                                         |![](samples/Normal/N2_CMGAN.png)                                         |
-|    | <audio src="samples/Normal/N2_clean.wav" controls="" preload=""></audio> | <audio src="samples/Normal/N2_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Normal/N2_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Normal/N2_CMGAN.wav" controls="" preload=""></audio>|
-
-
-## Crackles:
-
-We recommend using headphones for this section.
-
-|          | Target                                                                    |Noisy                                                                      |  MANNER  | CMGAN|
-|----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
-| 0| ![](samples/Crackle/C0_clean.png)                                         | ![](samples/Crackle/C0_noisy.png)                                         | ![](samples/Crackle/C0_MANNER.png)                                         |![](samples/Crackle/C0_CMGAN.png)                                         |
-|    | <audio src="samples/Crackle/C0_clean.wav" controls="" preload=""></audio> | <audio src="samples/Crackle/C0_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Crackle/C0_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Crackle/C0_CMGAN.wav" controls="" preload=""></audio>|
-| 1 | ![](samples/Crackle/C1_clean.png)                                         | ![](samples/Crackle/C1_noisy.png)                                         | ![](samples/Crackle/C1_MANNER.png)                                         |![](samples/Crackle/C1_CMGAN.png)                                         |
-|    | <audio src="samples/Crackle/C1_clean.wav" controls="" preload=""></audio> | <audio src="samples/Crackle/C1_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Crackle/C1_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Crackle/C1_CMGAN.wav" controls="" preload=""></audio>|
-| 2 | ![](samples/Crackle/C2_clean.png)                                         | ![](samples/Crackle/C2_noisy.png)                                         | ![](samples/Crackle/C2_MANNER.png)                                         |![](samples/Crackle/C2_CMGAN.png)                                         |
-|    | <audio src="samples/Crackle/C2_clean.wav" controls="" preload=""></audio> | <audio src="samples/Crackle/C2_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Crackle/C2_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Crackle/C2_CMGAN.wav" controls="" preload=""></audio>|
-
-
-## Wheezes: 
-
-We recommend using headphones for this section.
-
-|          | Target                                                                    |Noisy                                                                      |  MANNER  | CMGAN|
-|----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
-| 0| ![](samples/Wheeze/W0_clean.png)                                         | ![](samples/Wheeze/W0_noisy.png)                                         | ![](samples/Wheeze/W0_MANNER.png)                                         |![](samples/Wheeze/W0_CMGAN.png)                                         |
-|    | <audio src="samples/Wheeze/W0_clean.wav" controls="" preload=""></audio> | <audio src="samples/Wheeze/W0_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Wheeze/W0_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Wheeze/W0_CMGAN.wav" controls="" preload=""></audio>|
-| 1 | ![](samples/Wheeze/W1_clean.png)                                         | ![](samples/Wheeze/W1_noisy.png)                                         | ![](samples/Wheeze/W1_MANNER.png)                                         |![](samples/Wheeze/W1_CMGAN.png)                                         |
-|    | <audio src="samples/Wheeze/W1_clean.wav" controls="" preload=""></audio> | <audio src="samples/Wheeze/W1_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Wheeze/W1_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Wheeze/W1_CMGAN.wav" controls="" preload=""></audio>|
-| 2 | ![](samples/Wheeze/W2_clean.png)                                         | ![](samples/Wheeze/W2_noisy.png)                                         | ![](samples/Wheeze/W2_MANNER.png)                                         |![](samples/Wheeze/W2_CMGAN.png)                                         |
-|    | <audio src="samples/Wheeze/W2_clean.wav" controls="" preload=""></audio> | <audio src="samples/Wheeze/W2_noisy.wav" controls="" preload=""></audio> |<audio src="samples/Wheeze/W2_MANNER.wav" controls="" preload=""></audio>|<audio src="samples/Wheeze/W2_CMGAN.wav" controls="" preload=""></audio>|
