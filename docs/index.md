@@ -5,3 +5,5 @@ We recommend using headphones for this section.
 
 |          |  Protected Input                                                           |  Original Output |  Adversarial Input  | Adversarial Output|
 |----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|------|
+|0 | ![](samples/blackbox/1_0/ori_input.jpg)| ![](samples/blackbox/1_0/before.jpg)|![](samples/blackbox/1_0/adv_input.jpg)|![](samples/blackbox/1_0/after.jpg)|
+|    | <audio src="samples/blackbox/1_0/ori_input.wav" controls="" preload=""></audio> | <audio src="samples/blackbox/1_0/before.wav" controls="" preload=""></audio> |<audio src="samples/blackbox/1_0/adv_input.wav" controls="" preload=""></audio>|<audio src="samples/blackbox/1_0/after.wav" controls="" preload=""></audio>|
