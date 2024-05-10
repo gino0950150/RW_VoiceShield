@@ -30,6 +30,8 @@ from test import predict
 from resemblyzer import VoiceEncoder
 from speechbrain.pretrained import EncoderClassifier
 import shutil
+import re 
+
 from confidence_intervals import evaluate_with_conf_int
 def main(args):
     multiprocessing.set_start_method('spawn')
@@ -126,6 +128,15 @@ def main(args):
         sf.write(os.path.join(dir, 'before.wav'), before, args.sr)
         sf.write(os.path.join(dir, 'after.wav'), after, args.sr)
         sf.write(os.path.join(dir, 'noise.wav'), adv_wav.squeeze() - tar.squeeze()/m, args.sr)
+        trans_path = tar_path.replace("wav16", "txt").replace("_mic1.wav", ".txt")
+        try:
+            with open(trans_path, "r") as f:
+                line = f.readlines()[0]
+            transcript = re.sub(r'[^\w\s]', '', line.strip().lower())
+            with open(os.path.join(dir, 'tarpath.txt'), "a") as f:
+                f.writelines([transcript])
+        except:
+            pass
         
         attack_fail = utils.sv(os.path.join(dir, 'after.wav'), os.path.join(dir, "ori_input.wav"), emb_model)
         preserve_success = utils.sv(os.path.join(dir, 'adv_input.wav'), os.path.join(dir, 'ori_input.wav'), emb_model)
@@ -209,7 +220,7 @@ if __name__ == '__main__':
     parser.add_argument('--start_delta', type=float, default=20,
                         help="level of start noise")
     parser.add_argument("--hpfile", type=str, default="FreeVC/configs/freevc.json", help="path to json config file")
-    parser.add_argument("--ptfile", type=str, default="FreeVC/checkpoints/freevc.pth", help="path to pth file")
+    parser.add_argument("--ptfile", type=str, default="/homes/jinyu/attack_freevc/FreeVC/checkpoints/freevc.pth", help="path to pth file")
     parser.add_argument("--exp_dir", type=str, default="exps/1105", help="path to pth file")
     args = parser.parse_args()
 
